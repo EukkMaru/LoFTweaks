@@ -10,7 +10,6 @@ namespace LoFTweaksPatcher_Client
 {
     public class MainForm : Form
     {
-        // --- UI fields ---
         TextBox txtGame;
         Button btnBrowse;
         TextBox txtSteamId;
@@ -55,7 +54,7 @@ namespace LoFTweaksPatcher_Client
                 Left = 320,
                 Top = 75,
                 Width = 260,
-                Height = 36, // enough room for 2 lines
+                Height = 36,
                 AutoSize = false,
                 Text = "Debug logs\n(Don't enable unless you know what you're doing)"
             };
@@ -77,13 +76,10 @@ namespace LoFTweaksPatcher_Client
             btnRevert.Click += delegate { ShowRevertHelp(); };
             Controls.AddRange(new Control[] { btnPatch, btnOpenCfg, btnRevert });
 
-            // try to auto-detect game folder
             var guess = TryDetectGameFolder();
             if (!string.IsNullOrEmpty(guess))
                 txtGame.Text = guess;
         }
-
-        // ---------------- actions ----------------
 
         void BrowseGameFolder()
         {
@@ -134,10 +130,8 @@ namespace LoFTweaksPatcher_Client
                     return;
                 }
 
-                // 1) copy dll
                 File.Copy(tweak, targetDll, true);
 
-                // 2) write config
                 var cfgPath = GetConfigFilePath((txtSteamId.Text ?? "").Trim());
                 var dir = Path.GetDirectoryName(cfgPath);
                 if (dir != null) Directory.CreateDirectory(dir);
@@ -178,8 +172,6 @@ namespace LoFTweaksPatcher_Client
                 "Steam will restore the original files automatically.",
                 "How to Revert", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
-        // ---------------- helpers ----------------
 
         string BuildJson()
         {
@@ -287,3 +279,4 @@ namespace LoFTweaksPatcher_Client
         }
     }
 }
+// Why am i even doing this
