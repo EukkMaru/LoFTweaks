@@ -1,0 +1,9 @@
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\bin\Release\LofTweaksPatcher_Client.exe.config
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\bin\Release\LofTweaksPatcher_Client.exe
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\bin\Release\LofTweaksPatcher_Client.pdb
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.csproj.AssemblyReference.cache
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.Properties.Resources.resources
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.csproj.GenerateResource.cache
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.csproj.CoreCompileInputs.cache
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.exe
+C:\Users\fuyun\Desktop\Maru\LoFTweaks\LoFTweaksPatcher\LofTweaksPatcher_Client\LofTweaksPatcher_Client\obj\Release\LofTweaksPatcher_Client.pdb
